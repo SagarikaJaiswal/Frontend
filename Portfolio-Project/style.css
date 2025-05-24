@@ -1,0 +1,115 @@
+:root {
+    --primrose: #F6DBD8;
+    --pink: #FFC4BC;
+    --white: #F0EEE9;
+    --silver: #CAC5C2;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--primrose);
+    background-color: black;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+#intro {
+    background-color: var(--silver);
+    color: black;
+    padding: 1rem;
+}
+
+#intro p {
+    line-height: 1.5;
+}
+
+section#experience {
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+#experience li {
+    list-style-type: none;
+    padding: 0.5rem 0;
+}
+
+#experience ul {
+    margin: 0;
+    padding: 0;
+}
+
+#hire {
+    padding: 0.5rem;
+    width: 400px;
+    background-color: var(--pink);
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#hire p {
+    line-height: 1.5rem;
+}
+
+#section-pink {
+    background-color: var(--pink);
+}
+
+nav li {
+    list-style-type: none;
+    padding: 0.5rem;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: var(--primrose);
+    text-decoration: underline;
+}
+nav ul {
+    display: flex;
+}
+nav {
+    padding: 0.5 rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav li:last-child {
+    color: black;
+    background-color: orangered;
+    border-radius: 0.2rem;
+    
+}
+
+nav div:first-child {
+    font-size: 2rem;
+}
+
+#gradient-section {
+    background: #eba7c3;
+    background: linear-gradient(90deg, rgba(235, 167, 195, 1) 0%, rgba(196, 185, 189, 1) 41%, rgba(235, 101, 181, 1) 100%);
+    width: 100%;
+    height: 4px;
+    margin: 4rem 0;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
